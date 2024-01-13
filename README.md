@@ -1,19 +1,13 @@
 # Startup Analysis with Python
 
 ## Content of the project
-The purpose of this project is to showcase my data analysis skills in Python. Along the project, I try to derive insightful observations from the main dataset.
+The purpose of this project is to derive insightful observations from the main dataset (Startup_Dataset.xlsx).
 QUESTION 1: What are the most successful universities?
 QUESTION 2: Which sectors are the most successful ones?
 QUESTION 3: For how long should I expect to stay private?
 QUESTION 4: What country is more suited for creating a startup?
 QUESTION 5: How much financing am I expected to obtain?
 
-
-- Which university should I go to?
-- What are the most appealing sectors?
-- How long should I expect to stay private? How does that expected time change from sector to sector?
-- Where should I locate my firm?
-- How much financing am I expected to get? How does that depend on the funding stage and on the country?
 
 ## Instructions
 The main file used for the analysis is Startup_Dataset.xlsx. This workbook contains four worksheets:
@@ -27,28 +21,48 @@ Additionally, three csv files are needed in order to run the code properly:
 - world-universities.csv
 - GDP Per Capita All countries.csv
 
-## Installation
+
+## Dependencies
+
 The following libraries are used in different parts of the project:
+- Pandas
+- Numpy
+- Matplotlib.pyplot
+- Seaborn
+- Geopandas
+- Display
+- Combinations
+- Warnings
+- SettingWithCopyWarning
+
+
+Proceed to their installation with the following code:
 
 ```
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+import geopandas as gpd
+from IPython.display import display
+from itertools import combinations
+import warnings
+from pandas.errors import SettingWithCopyWarning
 ```
 
-
-```
-$ pip install twine
-```
+## Installation
+Ensure that you have Python installed on your system. If not, you can download it from (https://www.python.org/downloads/).
 
 
 ## Usage
-
+You are allowed to view and fork the repository for personal use. If you have any questions or would like to discuss potential collaborations, feel free to reach out.
 
 
 ## Contributing
-
+Although this project is not open-source, I welcome feedback, bug reports, and suggestions. If you encounter any issues or have ideas for improvements, feel free to send me an email to julian.enciso.izquierdo@gmail.com.
 
 
 ## License
+This project is not open-source, and it does not come with a specific open-source license. All rights are reserved, and usage, modification, or distribution of the code is not permitted without explicit permission.
+
+If you are interested in using or collaborating on this project, please send me an email to julian.enciso.izquierdo@gmail.com.
