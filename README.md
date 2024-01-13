@@ -30,12 +30,12 @@ Additionally, three csv files are needed in order to run the code properly:
 ## Installation
 The following libraries are used in different parts of the project:
 
-'''
+```
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-'''
+```
 
 
 ```
