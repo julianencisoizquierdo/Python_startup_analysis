@@ -1,12 +1,12 @@
 # Startup Analysis with Python
 
 ## Content of the project
-The purpose of this project is to derive insightful observations from the main dataset (Startup_Dataset.xlsx).
-QUESTION 1: What are the most successful universities?
-QUESTION 2: Which sectors are the most successful ones?
-QUESTION 3: For how long should I expect to stay private?
-QUESTION 4: What country is more suited for creating a startup?
-QUESTION 5: How much financing am I expected to obtain?
+The purpose of this project is to derive insightful observations from the main dataset (Startup_Dataset.xlsx). The questions that I try to answer are:
+1) What are the most successful universities?
+2) Which sectors are the most successful ones?
+3) For how long should I expect to stay private?
+4) What country is more suited for creating a startup?
+5) How much financing am I expected to obtain?
 
 
 ## Instructions
@@ -17,9 +17,16 @@ The main file used for the analysis is Startup_Dataset.xlsx. This workbook conta
 - EMPLOYEE: includes information about the University attended by professionals that work in some of the companies included in the dataset
 
 Additionally, three csv files are needed in order to run the code properly:
-- Exchange_Rates_Table.csv
-- world-universities.csv
-- GDP Per Capita All countries.csv
+- Exchange_Rates_Table.csv: provides information on the exchange rates of several currencies at different points in time
+- world-universities.csv: contains a list of all of the universities in the world
+- GDP Per Capita All countries.csv: contains a list of the GDP per capita of all of the countries in the world
+
+When running the code, make sure that the filepath for the several read_excel and read_csv Panda functions have been updated correctly.
+
+
+## Usage
+
+To run the analysis, open the `main_analysis.ipynb` notebook and execute each cell sequentially. Ensure that the required datasets are in the correct file paths.
 
 
 ## Dependencies
@@ -51,7 +58,7 @@ from pandas.errors import SettingWithCopyWarning
 ```
 
 ## Installation
-Ensure that you have Python installed on your system. If not, you can download it from (https://www.python.org/downloads/).
+Ensure that you have Python installed on your system. If not, you can download it from [python.org](https://www.python.org/downloads/).
 
 
 ## Usage
@@ -66,3 +73,6 @@ Although this project is not open-source, I welcome feedback, bug reports, and s
 This project is not open-source, and it does not come with a specific open-source license. All rights are reserved, and usage, modification, or distribution of the code is not permitted without explicit permission.
 
 If you are interested in using or collaborating on this project, please send me an email to julian.enciso.izquierdo@gmail.com.
+
+## Acknowledgments
+The project uses data from Startup_Dataset.xlsx, which was kindly shared by Professor Howard Zhong. Special thanks to him for his valuable feedback.
