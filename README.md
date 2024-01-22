@@ -19,7 +19,7 @@ The main file used for the analysis is `Startup_Dataset.xlsx`. This workbook con
 Additionally, three csv files are needed in order to run the code properly:
 - `Exchange_Rates_Table.csv`: provides information on the exchange rates of several currencies at different points in time
 - `world-universities.csv`: contains a list of all of the universities in the world
-- GDP Per Capita All `countries.csv`: contains a list of the GDP per capita of all of the countries in the world
+- `GDP Per Capita All countries.csv`: contains a list of the GDP per capita of all of the countries in the world
 
 When running the code, make sure that the filepath for the several read_excel and read_csv Panda functions have been updated correctly.
 
