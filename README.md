@@ -75,4 +75,4 @@ This project is not open-source, and it does not come with a specific open-sourc
 If you are interested in using or collaborating on this project, please send me an email to julian.enciso.izquierdo@gmail.com.
 
 ## Acknowledgments
-The project uses data from Startup_Dataset.xlsx, which was kindly shared by Professor Howard Zhong. Special thanks to him for his valuable feedback.
+The project uses data from `Startup_Dataset.xlsx`, which was kindly shared by Professor Howard Zhong. Special thanks to him for his valuable feedback.
